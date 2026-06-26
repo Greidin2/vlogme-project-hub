@@ -1,0 +1,410 @@
+[
+  {
+    "id": "vlogme",
+    "title": "Vlogme.ai",
+    "description": "Основной рабочий сервис.",
+    "url": "https://vlogme.ai/",
+    "category": "common",
+    "status": "ready",
+    "external": true,
+    "buttonLabel": "Открыть"
+  },
+  {
+    "id": "vlogme-create",
+    "title": "Vlogme.ai — создание видео",
+    "description": "Быстрый переход к созданию видео.",
+    "url": "https://vlogme.ai/create",
+    "category": "common",
+    "status": "ready",
+    "external": true,
+    "buttonLabel": "Открыть"
+  },
+  {
+    "id": "vpn",
+    "title": "VPN для рабочих задач",
+    "description": "Рабочий VPN-доступ для задач команды.",
+    "url": "https://vpn.blockbuster.cv/",
+    "category": "common",
+    "status": "ready",
+    "external": true,
+    "buttonLabel": "Открыть"
+  },
+  {
+    "id": "trello-internal-tasks",
+    "title": "Trello «Внутренние задачи»",
+    "description": "Внутренние задачи команды.",
+    "url": "https://trello.com/b/ynV78T4w/%F0%9F%93%9D-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D0%B8%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B8",
+    "category": "common",
+    "status": "ready",
+    "external": true,
+    "buttonLabel": "Открыть"
+  },
+  {
+    "id": "prompts-template",
+    "title": "Шаблон Prompts-документа",
+    "description": "Шаблон для создания индивидуальных копий документов с промптами.",
+    "url": "https://docs.google.com/document/d/1BbiHgXUxo2MeO3iZRM3LDrb4iNCeAa1phZnGCNkonnk/edit?tab=t.0",
+    "category": "content",
+    "status": "ready",
+    "external": true,
+    "buttonLabel": "Открыть"
+  },
+  {
+    "id": "trello-smm",
+    "title": "Trello «SMM-Конвейер»",
+    "description": "Карточки задач, заказов на видео и передачи пачек.",
+    "url": "https://trello.com/b/hOI65jXc/%F0%9F%8E%AC-smm-%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D0%B9%D0%B5%D1%80",
+    "category": "common",
+    "status": "ready",
+    "external": true,
+    "buttonLabel": "Открыть"
+  },
+  {
+    "id": "content-kpi",
+    "title": "Таблица «Контент и KPI»",
+    "description": "Темы, видео, коды, статусы и передача роликов в публикацию.",
+    "url": "https://docs.google.com/spreadsheets/d/1shIcUlhE4nN1ELtN-v41dP7pGwySiChua7IGz0sxKYU/edit?gid=2005796595#gid=2005796595",
+    "category": "common",
+    "status": "ready",
+    "external": true,
+    "buttonLabel": "Открыть"
+  },
+  {
+    "id": "publication-table",
+    "title": "Таблица «Публикация»",
+    "description": "Рабочая таблица для размещения готового контента.",
+    "url": "https://docs.google.com/spreadsheets/d/1v-MqXbcH1_J5f-OltJ5NZocWTe6K_OkeSH0VlMOudBI/edit",
+    "category": "publication",
+    "status": "ready",
+    "external": true,
+    "buttonLabel": "Открыть"
+  },
+  {
+    "id": "bug-tracker-board",
+    "title": "Доска Bug Tracker",
+    "description": "Доска для регистрации технических ошибок и проблем разработки.",
+    "url": "https://trello.com/b/BaOdgAvk/%D0%B1%D0%B0%D0%B3%D1%82%D1%80%D0%B5%D0%BA%D0%B8%D0%BD%D0%B3-bug-tracker",
+    "category": "help",
+    "status": "ready",
+    "external": true,
+    "buttonLabel": "Открыть"
+  },
+  {
+    "id": "accounts-table",
+    "title": "Моя таблица аккаунтов",
+    "description": "Каждый Platform Lead работает в своей личной таблице аккаунтов. Ссылку предоставляет руководитель.",
+    "category": "publication",
+    "status": "individual",
+    "external": false,
+    "note": "Ссылку предоставляет руководитель.",
+    "buttonLabel": "Получить ссылку"
+  },
+  {
+    "id": "prompts-doc",
+    "title": "Мой документ «Промпты»",
+    "description": "У каждого контент-менеджера свой документ «[Код] Промпты — Имя».",
+    "category": "content",
+    "status": "individual",
+    "external": false,
+    "note": "Ссылку предоставляет руководитель.",
+    "buttonLabel": "Получить ссылку"
+  },
+  {
+    "id": "marketing-hub",
+    "title": "Marketing Hub",
+    "description": "Источники, оценки, переговоры, заказы и результаты размещений.",
+    "url": "https://docs.google.com/spreadsheets/d/1o_4xphGQzUDTBXK-owPMz7c4P9093oJQb5ilQ_SmLiw/edit?gid=0#gid=0",
+    "category": "marketing",
+    "status": "ready",
+    "external": true,
+    "buttonLabel": "Открыть"
+  },
+  {
+    "id": "creator-kit-ru",
+    "title": "Creator Kit RU",
+    "description": "Материалы для работы с авторами и партнёрами на русском языке.",
+    "url": "https://docs.google.com/document/d/1jPcvcnE39YP9-eweGFDbzvGqpKC9IgvaIfr9fiDSa_w/edit?tab=t.0",
+    "category": "marketing",
+    "status": "ready",
+    "external": true,
+    "buttonLabel": "Открыть"
+  },
+  {
+    "id": "creator-kit-en",
+    "title": "Creator Kit EN",
+    "description": "Материалы для работы с авторами и партнёрами на английском языке.",
+    "url": "https://docs.google.com/document/d/1Xo-gQYb0NSBWTWaAInprOlFHjLNAB5ehrkpa5PGRCNM/edit?tab=t.0",
+    "category": "marketing",
+    "status": "ready",
+    "external": true,
+    "buttonLabel": "Открыть"
+  },
+  {
+    "id": "telegram-greidin",
+    "title": "Telegram Валентина Козлова",
+    "description": "@Greidin",
+    "url": "https://t.me/Greidin",
+    "category": "contact",
+    "status": "ready",
+    "external": true,
+    "buttonLabel": "Написать"
+  },
+  {
+    "id": "email-greidin",
+    "title": "Email Валентина Козлова",
+    "description": "greidin2010@gmail.com",
+    "url": "mailto:greidin2010@gmail.com",
+    "category": "contact",
+    "status": "ready",
+    "external": false,
+    "buttonLabel": "Отправить email"
+  },
+  {
+    "id": "telegram-abalex",
+    "title": "Telegram Алексея Бабкина",
+    "description": "Технический контакт после создания карточки Bug Tracker.",
+    "url": "https://t.me/abalex2029",
+    "category": "contact",
+    "status": "ready",
+    "external": true,
+    "buttonLabel": "Написать"
+  },
+  {
+    "id": "email-abalex",
+    "title": "Email Алексея Бабкина",
+    "description": "Почта технического контакта.",
+    "url": "mailto:abalex2029@gmail.com",
+    "category": "contact",
+    "status": "ready",
+    "external": false,
+    "buttonLabel": "Отправить email"
+  },
+  {
+    "id": "telegram-qa",
+    "title": "Telegram Константина Бородкина",
+    "description": "QA-контакт по вопросам проверки после оформления ошибки.",
+    "url": "https://t.me/im_Kossss",
+    "category": "contact",
+    "status": "ready",
+    "external": true,
+    "buttonLabel": "Написать"
+  },
+  {
+    "id": "email-qa",
+    "title": "Email Константина Бородкина",
+    "description": "Почта QA-контакта.",
+    "url": "mailto:K.v.borodkin@gmail.com",
+    "category": "contact",
+    "status": "ready",
+    "external": false,
+    "buttonLabel": "Отправить email"
+  },
+  {
+    "id": "telegram-main-group",
+    "title": "Telegram: главная группа",
+    "description": "Ссылка будет добавлена администратором.",
+    "category": "help",
+    "status": "missing",
+    "external": false,
+    "buttonLabel": "Ожидается ссылка"
+  },
+  {
+    "id": "telegram-general",
+    "title": "Telegram: General",
+    "description": "Рабочая Telegram-тема команды.",
+    "category": "help",
+    "status": "ready",
+    "external": true,
+    "buttonLabel": "Открыть",
+    "url": "https://t.me/c/3972052742/1"
+  },
+  {
+    "id": "telegram-video-tasks",
+    "title": "Telegram: Задачи по Видео",
+    "description": "Рабочая Telegram-тема команды.",
+    "category": "content",
+    "status": "ready",
+    "external": true,
+    "buttonLabel": "Открыть",
+    "url": "https://t.me/c/3972052742/594"
+  },
+  {
+    "id": "telegram-publication",
+    "title": "Telegram: Публикация",
+    "description": "Рабочая Telegram-тема команды.",
+    "category": "publication",
+    "status": "ready",
+    "external": true,
+    "buttonLabel": "Открыть",
+    "url": "https://t.me/c/3972052742/1830"
+  },
+  {
+    "id": "telegram-marketing",
+    "title": "Telegram: Маркетинг/Раскрутка",
+    "description": "Рабочая Telegram-тема команды.",
+    "category": "marketing",
+    "status": "ready",
+    "external": true,
+    "buttonLabel": "Открыть",
+    "url": "https://t.me/c/3972052742/32"
+  },
+  {
+    "id": "telegram-errors",
+    "title": "Telegram: Ошибки",
+    "description": "Рабочая Telegram-тема команды.",
+    "category": "help",
+    "status": "ready",
+    "external": true,
+    "buttonLabel": "Открыть",
+    "url": "https://t.me/c/3972052742/1471"
+  },
+  {
+    "id": "telegram-accounts",
+    "title": "Telegram: Accounts",
+    "description": "Рабочая Telegram-тема команды.",
+    "category": "publication",
+    "status": "ready",
+    "external": true,
+    "buttonLabel": "Открыть",
+    "url": "https://t.me/c/3972052742/1369"
+  },
+  {
+    "id": "telegram-upgrades",
+    "title": "Telegram: Upgrades",
+    "description": "Рабочая Telegram-тема команды.",
+    "category": "help",
+    "status": "ready",
+    "external": true,
+    "buttonLabel": "Открыть",
+    "url": "https://t.me/c/3972052742/27"
+  },
+  {
+    "id": "telegram-fun",
+    "title": "Telegram: Fun",
+    "description": "Рабочая Telegram-тема команды.",
+    "category": "help",
+    "status": "ready",
+    "external": true,
+    "buttonLabel": "Открыть",
+    "url": "https://t.me/c/3972052742/30"
+  },
+  {
+    "id": "content-manager-guide",
+    "title": "Полная инструкция контент-менеджера",
+    "description": "PDF-инструкция для работы с темами, промптами и пачками видео.",
+    "url": "./docs/content-manager-guide.pdf",
+    "category": "content",
+    "status": "local",
+    "external": true,
+    "buttonLabel": "Открыть инструкцию"
+  },
+  {
+    "id": "platform-lead-guide",
+    "title": "Полная инструкция Platform Lead",
+    "description": "PDF будет добавлен администратором.",
+    "category": "publication",
+    "status": "missing",
+    "external": false,
+    "buttonLabel": "Ожидается PDF"
+  },
+  {
+    "id": "marketing-guide",
+    "title": "Полная инструкция маркетинга",
+    "description": "PDF-инструкция для маркетинга.",
+    "url": "./docs/marketing-guide.pdf",
+    "category": "marketing",
+    "status": "local",
+    "external": true,
+    "buttonLabel": "Открыть инструкцию"
+  },
+  {
+    "id": "bug-tracker-guide",
+    "title": "Инструкция Bug Tracker",
+    "description": "PDF-инструкция по оформлению технических ошибок в Bug Tracker.",
+    "category": "help",
+    "status": "local",
+    "external": true,
+    "buttonLabel": "Открыть инструкцию",
+    "url": "./docs/bug-tracker-guide.pdf"
+  },
+  {
+    "id": "telegram-andrey",
+    "title": "Telegram Андрея",
+    "description": "@nikandrenalina",
+    "url": "https://t.me/nikandrenalina",
+    "category": "contact",
+    "status": "ready",
+    "external": true,
+    "buttonLabel": "Написать"
+  },
+  {
+    "id": "email-andrey",
+    "title": "Email Андрея",
+    "description": "nikolaichuk.andrij@gmail.com",
+    "url": "mailto:nikolaichuk.andrij@gmail.com",
+    "category": "contact",
+    "status": "ready",
+    "external": false,
+    "buttonLabel": "Отправить email"
+  },
+  {
+    "id": "telegram-alina",
+    "title": "Telegram Alina",
+    "description": "@alinkap_P",
+    "url": "https://t.me/alinkap_P",
+    "category": "contact",
+    "status": "ready",
+    "external": true,
+    "buttonLabel": "Написать"
+  },
+  {
+    "id": "email-alina",
+    "title": "Email Alina",
+    "description": "studio.neuroai@gmail.com",
+    "url": "mailto:studio.neuroai@gmail.com",
+    "category": "contact",
+    "status": "ready",
+    "external": false,
+    "buttonLabel": "Отправить email"
+  },
+  {
+    "id": "telegram-ramil",
+    "title": "Telegram Рамиля Байрамова",
+    "description": "@Ramil8Bay",
+    "url": "https://t.me/Ramil8Bay",
+    "category": "contact",
+    "status": "ready",
+    "external": true,
+    "buttonLabel": "Написать"
+  },
+  {
+    "id": "email-ramil",
+    "title": "Email Рамиля Байрамова",
+    "description": "ram8bay8@gmail.com",
+    "url": "mailto:ram8bay8@gmail.com",
+    "category": "contact",
+    "status": "ready",
+    "external": false,
+    "buttonLabel": "Отправить email"
+  },
+  {
+    "id": "telegram-anya",
+    "title": "Telegram Ани Байрамовой",
+    "description": "@sonvishn0",
+    "url": "https://t.me/sonvishn0",
+    "category": "contact",
+    "status": "ready",
+    "external": true,
+    "buttonLabel": "Написать"
+  },
+  {
+    "id": "email-anya",
+    "title": "Email Ани Байрамовой",
+    "description": "Anna21b17@mail.ru",
+    "url": "mailto:Anna21b17@mail.ru",
+    "category": "contact",
+    "status": "ready",
+    "external": false,
+    "buttonLabel": "Отправить email"
+  }
+]

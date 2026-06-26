@@ -1,0 +1,91 @@
+.page-card {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  border-radius: 24px;
+  min-height: 360px;
+  padding: clamp(44px, 7vw, 84px);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.48), rgba(255, 250, 246, 0.64)),
+    var(--color-surface);
+  box-shadow: 0 18px 42px rgba(91, 63, 55, 0.08);
+}
+
+.page-card::before {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 148px;
+  height: 1px;
+  background: var(--color-accent);
+  content: "";
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.page-card::after {
+  position: absolute;
+  top: -4px;
+  left: 50%;
+  width: 9px;
+  height: 9px;
+  border-radius: 2px;
+  background: var(--color-accent);
+  content: "";
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.page-card > * {
+  position: relative;
+}
+
+.page-card__mark {
+  display: block;
+  width: 54px;
+  height: 54px;
+  margin: 0 auto 28px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at center, var(--color-accent) 0 3px, transparent 4px),
+    var(--color-accent-soft);
+}
+
+.page-card__mark::before,
+.page-card__mark::after {
+  position: absolute;
+  left: 50%;
+  width: 18px;
+  height: 2px;
+  border-radius: 999px;
+  background: var(--color-accent);
+  content: "";
+  transform: translateX(-50%);
+}
+
+.page-card__mark::before {
+  top: 25px;
+}
+
+.page-card__mark::after {
+  top: 25px;
+  transform: translateX(-50%) rotate(90deg);
+}
+
+.page-card h1 {
+  margin: 0;
+  color: var(--color-text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.6rem, 7vw, 5.2rem);
+  line-height: 0.98;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.page-card p {
+  max-width: 620px;
+  margin: 22px auto 0;
+  color: var(--color-text-muted);
+  font-size: clamp(1.1rem, 3vw, 1.35rem);
+  line-height: 1.5;
+  text-align: center;
+}

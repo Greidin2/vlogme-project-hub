@@ -1,0 +1,27 @@
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-main {
+  width: min(100% - 32px, 1120px);
+  margin: 54px auto;
+  flex: 1;
+}
+
+.app-footer {
+  padding: 24px 16px 28px;
+  color: var(--color-text-muted);
+  font-size: 1rem;
+  text-align: center;
+  border-top: 1px solid var(--color-border);
+  background: rgba(255, 250, 246, 0.42);
+}
+
+@media (max-width: 640px) {
+  .app-main {
+    width: min(100% - 24px, 1120px);
+    margin: 28px auto;
+  }
+}
