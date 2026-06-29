@@ -15,6 +15,8 @@ export const siteConfig = {
     { label: "Контент", path: "/content" },
     { label: "Публикация", path: "/publication" },
     { label: "Маркетинг", path: "/marketing" },
+    { label: "Доступ", path: "/access" },
+    { label: "История", path: "/history" },
     { label: "Помощь", path: "/help" },
   ] satisfies NavigationItem[],
 };

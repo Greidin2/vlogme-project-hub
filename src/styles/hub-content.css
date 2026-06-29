@@ -143,6 +143,70 @@
   margin-top: 0;
 }
 
+.hub-form {
+  display: grid;
+  gap: 14px;
+  align-content: start;
+}
+
+.hub-form label {
+  display: grid;
+  gap: 8px;
+}
+
+.hub-form span {
+  color: var(--color-text-muted);
+  font-weight: 700;
+}
+
+.hub-form input,
+.hub-form select,
+.hub-form textarea {
+  width: 100%;
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  padding: 12px 14px;
+  background: var(--color-surface);
+  color: var(--color-text);
+  font: inherit;
+}
+
+.hub-form textarea {
+  resize: vertical;
+}
+
+.hub-form input:focus,
+.hub-form select:focus,
+.hub-form textarea:focus {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+.hub-report-files {
+  display: grid;
+  gap: 8px;
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hub-report-files li {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--color-text-muted);
+}
+
+.hub-report-files a {
+  color: var(--color-accent-strong);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.hub-report-files span:last-child {
+  white-space: nowrap;
+}
+
 .hub-steps {
   display: grid;
   gap: 12px;

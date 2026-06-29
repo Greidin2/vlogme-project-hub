@@ -3,6 +3,7 @@ import { PageHeader } from "../../components/Hub/PageHeader";
 import { ResourceCard } from "../../components/Hub/ResourceCard";
 import { SectionTitle } from "../../components/Hub/SectionTitle";
 import { WorkflowSteps } from "../../components/Hub/WorkflowSteps";
+import { AccessGate } from "../../components/Hub/AccessGate";
 import { SectionNavigation } from "../../components/SectionNavigation/SectionNavigation";
 import { getResources } from "../../config/links";
 
@@ -13,12 +14,15 @@ const sectionItems = [
   { id: "help", label: "Помощь" },
 ];
 
+const allowedRoles = ["platform-lead", "admin"] as const;
+
 export function PublicationPage() {
   const tools = getResources(["accounts-table", "trello-smm", "content-kpi", "publication-table", "platform-lead-guide"]);
   const telegramTopics = getResources(["telegram-publication", "telegram-video-tasks", "telegram-accounts"]);
 
   return (
-    <div className="hub-page">
+    <AccessGate allowedRoles={[...allowedRoles]} title="Раздел публикации">
+      <div className="hub-page">
       <PageHeader title="Platform Lead" description="Аккаунты, создание заказов на видео и публикация контента." />
       <SectionNavigation items={sectionItems} />
 
@@ -85,6 +89,7 @@ export function PublicationPage() {
       <a className="hub-action hub-action--secondary" href="#main-content">
         Наверх
       </a>
-    </div>
+      </div>
+    </AccessGate>
   );
 }

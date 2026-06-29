@@ -4,13 +4,16 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "node scripts/dev.mjs",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
+    "start": "node server/index.mjs",
     "typecheck": "tsc -b --pretty",
-    "validate:resources": "node scripts/validate-resources.mjs"
+    "validate:resources": "node scripts/validate-resources.mjs",
+    "deploy:prod": "node scripts/deploy-prod.mjs"
   },
   "dependencies": {
+    "jose": "5.10.0",
     "react": "19.2.7",
     "react-dom": "19.2.7",
     "react-router-dom": "7.18.0"

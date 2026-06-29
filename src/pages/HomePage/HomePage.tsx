@@ -5,6 +5,7 @@ import { ResourceCard } from "../../components/Hub/ResourceCard";
 import { RoleCard } from "../../components/Hub/RoleCard";
 import { SectionTitle } from "../../components/Hub/SectionTitle";
 import { WorkflowSteps } from "../../components/Hub/WorkflowSteps";
+import { appRoutes } from "../../config/routes";
 import { getResources } from "../../config/links";
 import { siteConfig } from "../../config/site";
 
@@ -42,9 +43,21 @@ export function HomePage() {
             buttonLabel="Открыть раздел"
           />
           <RoleCard
+            title="Доступ и роли"
+            description="Вход через Gmail, текущая учётка и правила допуска к разделам."
+            to={appRoutes.access}
+            buttonLabel="Открыть раздел"
+          />
+          <RoleCard
+            title="История и созвоны"
+            description="Все отчёты команды, фильтры по ролям, почте и датам, а также история недельных созвонов."
+            to={appRoutes.history}
+            buttonLabel="Открыть раздел"
+          />
+          <RoleCard
             title="Помощь и ошибки"
             description="Инструкции, контакты и регистрация проблем."
-            to="/help"
+            to={appRoutes.help}
             buttonLabel="Получить помощь"
           />
         </div>

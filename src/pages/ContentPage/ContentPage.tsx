@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { AccessGate } from "../../components/Hub/AccessGate";
 import { NoticeCard } from "../../components/Hub/NoticeCard";
 import { PageHeader } from "../../components/Hub/PageHeader";
 import { ResourceCard } from "../../components/Hub/ResourceCard";
@@ -14,12 +15,15 @@ const sectionItems = [
   { id: "help", label: "Помощь" },
 ];
 
+const allowedRoles = ["content-manager", "admin"] as const;
+
 export function ContentPage() {
   const tools = getResources(["trello-smm", "content-kpi", "vlogme-create", "prompts-doc", "content-manager-guide"]);
   const videoTopic = getResource("telegram-video-tasks");
 
   return (
-    <div className="hub-page">
+    <AccessGate allowedRoles={[...allowedRoles]} title="Раздел контента">
+      <div className="hub-page">
       <PageHeader title="Контент-менеджер" description="Темы, создание видео, промпты и передача готовых пачек." />
       <SectionNavigation items={sectionItems} />
 
@@ -89,6 +93,7 @@ export function ContentPage() {
       <a className="hub-action hub-action--secondary" href="#main-content">
         Наверх
       </a>
-    </div>
+      </div>
+    </AccessGate>
   );
 }

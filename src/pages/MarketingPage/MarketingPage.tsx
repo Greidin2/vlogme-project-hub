@@ -3,6 +3,7 @@ import { PageHeader } from "../../components/Hub/PageHeader";
 import { ResourceCard } from "../../components/Hub/ResourceCard";
 import { SectionTitle } from "../../components/Hub/SectionTitle";
 import { WorkflowSteps } from "../../components/Hub/WorkflowSteps";
+import { AccessGate } from "../../components/Hub/AccessGate";
 import { SectionNavigation } from "../../components/SectionNavigation/SectionNavigation";
 import { getResources } from "../../config/links";
 
@@ -13,11 +14,14 @@ const sectionItems = [
   { id: "help", label: "Помощь" },
 ];
 
+const allowedRoles = ["marketing", "admin"] as const;
+
 export function MarketingPage() {
   const tools = getResources(["marketing-hub", "creator-kit-ru", "creator-kit-en", "marketing-guide", "telegram-marketing"]);
 
   return (
-    <div className="hub-page">
+    <AccessGate allowedRoles={[...allowedRoles]} title="Раздел маркетинга">
+      <div className="hub-page">
       <PageHeader title="Маркетинг" description="Поиск источников, переговоры, рекламные заказы и анализ результатов." />
       <SectionNavigation items={sectionItems} />
 
@@ -68,6 +72,7 @@ export function MarketingPage() {
       <a className="hub-action hub-action--secondary" href="#main-content">
         Наверх
       </a>
-    </div>
+      </div>
+    </AccessGate>
   );
 }
